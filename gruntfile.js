@@ -37,7 +37,7 @@ module.exports = function(grunt) {
 		uglify: {
 			build: {
 				files: {
-					'deploy/js/main.js': [
+					'build/js/bundle.js': [
 						'source/javascript/vendor/*.js',
 						'source/javascript/components/*.js',
 						'source/javascript/*.js'
